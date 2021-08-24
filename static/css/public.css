@@ -1,0 +1,134 @@
+/* 布局 */
+.flex{
+	display: flex;
+}
+.flex-direction{
+	flex-direction: column;
+}
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-1{
+	flex: 1;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-around{
+	justify-content: space-around;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-start{
+	justify-content: start;
+}
+.justify-end{
+	justify-content: end;
+}
+
+.scroll-y{
+	overflow-y: scroll;
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.flex-nowrap {
+	flex-wrap: nowrap;
+}
+.align-start {
+	align-items: flex-start;
+}
+
+.align-end {
+	align-items: flex-end;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.align-stretch {
+	align-items: stretch;
+}
+/*  字体大小 */
+.font-20{
+	font-size: 20rpx;
+}
+.font-22 {
+	font-size: 22rpx;
+}
+.font-24 {
+	font-size: 24rpx;
+}
+.font-26 {
+	font-size: 26rpx;
+}
+.font-28 {
+	font-size: 28rpx;
+}
+.font-30 {
+	font-size: 30rpx;
+}
+.font-32 {
+	font-size: 32rpx;
+}
+.font-34 {
+	font-size: 34rpx;
+}
+.font-36 {
+	font-size: 36rpx;
+}
+.font-38 {
+	font-size: 38rpx;
+}
+.font-40 {
+	font-size: 40rpx;
+}
+.font-44 {
+	font-size: 44rpx;
+}
+.font-46 {
+	font-size: 46rpx;
+}
+.font-48 {
+	font-size: 48rpx;
+}
+.font-50 {
+	font-size: 50rpx;
+}
+.font-52 {
+	font-size: 52rpx;
+}
+.font-54 {
+	font-size: 54rpx;
+}
+.font-56 {
+	font-size: 56rpx;
+}
+.font-60 {
+	font-size: 60rpx;
+}
+.font-64 {
+	font-size: 64rpx;
+}
+.font-72 {
+	font-size: 72rpx;
+}
+.font-70 {
+	font-size: 70rpx;
+}
+.font-74 {
+	font-size: 74rpx;
+}
+.font-80 {
+	font-size: 80rpx;
+}
+.font-100 {
+	font-size: 100rpx;
+}
+.font-bold {
+	font-weight: bold;
+}
