@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "全部订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "status-bar": "/components/status-bar/status-bar",
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "tabs-nav": "/components/tabs-nav/tabs-nav",
+    "order-list": "/components/order-list/order-list",
+    "no-login": "/components/no-login/no-login",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-popup-dialog": "/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog"
+  }
+}

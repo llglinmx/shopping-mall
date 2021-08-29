@@ -1,0 +1,16 @@
+{
+  "component": true,
+  "usingComponents": {
+    "index-z-paging-refresher": "/pages/index/index-z-paging-refresher",
+    "status-bar": "/components/status-bar/status-bar",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "z-paging": "/uni_modules/z-paging/components/z-paging/z-paging",
+    "custom-refresher": "/components/custom-refresher/custom-refresher",
+    "swiper-banner": "/components/swiper-banner/swiper-banner",
+    "title-msg": "/components/title-msg/title-msg",
+    "goods-square": "/components/goods-square/goods-square",
+    "loading": "/components/loading/loading",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "select-product": "/components/select-product/select-product"
+  }
+}

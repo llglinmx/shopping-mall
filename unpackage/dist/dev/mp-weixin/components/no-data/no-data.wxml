@@ -1,0 +1,1 @@
+<view class="no-data flex-center data-v-1a4b7c72"><view class="flex-direction flex-center data-v-1a4b7c72" style="transform:translateY(-120rpx);"><image style="width:200rpx;height:200rpx;" src="{{imageUrl}}" mode="aspectFill" class="data-v-1a4b7c72"></image><text class="font-24 data-v-1a4b7c72" style="color:#999;">{{msg}}</text></view></view>

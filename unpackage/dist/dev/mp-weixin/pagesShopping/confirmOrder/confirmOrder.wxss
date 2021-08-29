@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.box.data-v-17f2044e {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+}
+.box .box-header.data-v-17f2044e {
+  background: #fff;
+}
+.box .box-content.data-v-17f2044e {
+  width: 100%;
+}
+.box .box-content .order-content-address.data-v-17f2044e {
+  width: 100%;
+  padding: 32rpx;
+  margin-bottom: 16rpx;
+  box-sizing: border-box;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABdwAAAAICAYAAADjoj36AAAEwElEQVR4Xu2dT09cZRSHnzMDLdMIVgkmGjYuFRZUTGmDpqRD4rBp4pcx6cpx1cSv4sLEDWMCZBptUhqlJKXjrm6oLmi1QerwZ+Yec6mptcE7zpxbdMpvlmTeQ+bhOb/78s7JvXb/YuUecJaeXm5g9ufSFs6mm9WhvVQcKK6++c3iVk9lj1pUrRamv2uOJzBn2Lw5Mw5judV/IYWe4wObOHWwJXdWby9ey42PUy38NPvtuCeDc+DzZszgfcZH/jxnofzJbkvlT1d8lD/Z/aX8Uf50tQ9Q/ih/uhJG+dMVLu1/uuovXb90/Yr0l/yRP/KnKwJd5bP+/9L+pyu7tP/pqr/+59cvwx/Z/YuVXeB0Vx4c/eYW0MB9Efdl9/ba+K3lhznUPSwxs/DpyH5xfwKnAl42eA8o5VX/GOqkfO4a1MyT5cLp4tqtL6/lxufhzMJIs+gT5l4BK9OffOTPP4sof7KbVPnTmY/yJ7u/lD/Kn163Asof5U+v7qTr5I/8kT8RAvInQk/5I3/kT4SA/InQU/7In5fdn730wL0NFCKfNF1rcCfBVgoktSQpbByUmg/ertfTw/zwa/bKJ8O/t+wcVigb/hEwAbwSLny8Be6AL+P2dcuTjdebZx7U69Vc+GzNXhk+YG/K3crpgbtjfcdH/nSUUf5kIJI/8qcjAfkTQaT8kT/yJ0JA/kToKX/kj/yJEJA/EXrKH/kjfyIE5E+EnvKn//1J0gP3X4DXAiZs4zRIJ7eLvjIwuHf7jXp9J1Dvb0ufnWw3/DIw1WeH7dsYDUsn/42V3VJp/e4X1dz4PJ1sh/SLiDLeh3zkT1a7yJ/sMFH+dOKj/MnuL+WP8qf3DYvyR/nTuz0gf+SP/IkQkD8Resof+SN/IgTkT4Se8kf+nBR/fo0euP8GrOMsJxRqZ9x/GF1d3I7Qe3ZtOtnebBenME8PkivAu8BwXvWPoc5TPobVhgbajRtffZ7+LJfXEZPt7wAjuRQ/niLyJ5uz/PmXfJQ/R4KSP/InkuTyR/7InwgB+ROhp/yRP/InQkD+ROgpf+SP/IkQkD8Resqfl8ufwwP3Xm8ps4OzkU62pwfug6Xd9bwm2+fmqkOPXz0Ya+23JilaxZx0sn0yYu5/sHYHY4OEmhV8Oc/J9h/n5oZOPT41VigWJxO84maXDe8/PvInS0v5k920yp9OfJQ/2f2l/FH+9L4xUP4of3q3B+SP/JE/EQLyJ0JP+SN/5E+EgPyJ0FP+yJ+T5s/hLWV6eWhqE1jDWHKzWqlFI8/J9vMfXx1tH/i0J14Gq2CHk+0Dkb/OMa9tOqyZsUQ7qQ1Saqwufpbb5P/m+fKoDZyafnILmfQhqf3HR/5kGil/shtW+dOBj/Inu7+UP8qfwJ5A+aP8CeiD/JE/8idCQP5E6Cl/5I/8iRCQPxF6yh/5cxL9OXxo6j3gbFef3tgy95tPDtzb19+68cGmUU26qpHx5nMLV8esmFxwbN6cS8D4Xwfu7mCe1+96EXUMtnBuJthSoZBc//790ibV/Pj8/OHCWHLABfB54BLWX3yQP5nayZ8OXSl/5E8kuOWP/JE/EQLyJ0JP+SN/5E+EgPyJ0FP+yB/5EyEgfyL0lD/y5wT6Y/ijPwCxNqLYbGqsbQAAAABJRU5ErkJggg==) no-repeat #fff;
+  background-size: contain;
+  background-position: bottom;
+}
+.box .box-content .order-content-address .order-address-ico.data-v-17f2044e {
+  width: 32rpx;
+  height: 34rpx;
+}
+.box .box-content .order-content-address .order-address-ico image.data-v-17f2044e {
+  width: 100%;
+  height: 100%;
+}
+.box .box-content .order-content-address .order-address-info.data-v-17f2044e {
+  margin: 0 29rpx;
+}
+.box .box-content .order-content-address .order-address-info .order-info-title.data-v-17f2044e {
+  color: #000;
+  font-weight: 500rpx;
+}
+.box .box-content .order-content-address .order-address-info .order-info-top.data-v-17f2044e {
+  color: #000;
+}
+.box .box-content .order-content-address .order-address-info .order-info-top .order-info-top-tel.data-v-17f2044e {
+  margin-left: 24rpx;
+}
+.box .box-content .order-content-address .order-address-info .order-info-bottom.data-v-17f2044e {
+  color: #000;
+}
+.box .box-content .order-content-wrap .order-content-msg.data-v-17f2044e {
+  margin-top: 16rpx;
+  font-weight: 500;
+  background: #fff;
+}
+.box .box-content .order-content-wrap .order-content-msg .order-msg-li.data-v-17f2044e {
+  height: 79rpx;
+  font-size: 24rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.box .box-content .order-content-wrap .order-content-msg .order-msg-li .order-msg-li-text.data-v-17f2044e {
+  margin-left: 16rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 50rpx;
+  font-size: 400;
+}
+.box .box-content .order-content-wrap .order-content-msg .order-msg-li .order-msg-li-text text.data-v-17f2044e {
+  color: #E53948;
+  margin-right: 16rpx;
+}
+.box .box-footer.data-v-17f2044e {
+  height: 118rpx;
+  background: #fff;
+}
+.box .box-footer .order-footer-info .order-footer-info-text.data-v-17f2044e {
+  color: #333;
+  font-weight: 500;
+}
+.box .box-footer .order-footer-info .order-footer-info-price.data-v-17f2044e {
+  font-weight: 500;
+  color: #E53948;
+}
+.box .box-footer .order-footer-btn.data-v-17f2044e {
+  width: 200rpx;
+  height: 70rpx;
+  background: #324B78;
+  box-sizing: border-box;
+  border-radius: 40rpx;
+  color: #fff;
+  font-weight: 400;
+}
+

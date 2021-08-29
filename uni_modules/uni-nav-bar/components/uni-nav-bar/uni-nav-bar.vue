@@ -1,12 +1,12 @@
 <template>
-	<view class="uni-navbar">
+	<view class="uni-navbar" style="width: 100%;">
 		<view :class="{ 'uni-navbar--fixed': fixed, 'uni-navbar--shadow': shadow, 'uni-navbar--border': border }" :style="{ 'background-color': backgroundColor }"
 		 class="uni-navbar__content">
 			<status-bar v-if="statusBar" />
 			<view :style="{ color: color,backgroundColor: backgroundColor }" class="uni-navbar__header uni-navbar__content_view">
 				<view @tap="onClickLeft" class="uni-navbar__header-btns uni-navbar__header-btns-left uni-navbar__content_view">
 					<view class="uni-navbar__content_view" v-if="leftIcon.length">
-						<uni-icons :color="color" :type="leftIcon" size="24" />
+						<uni-icons :color="color" :type="leftIcon" size="20" />
 					</view>
 					<view :class="{ 'uni-navbar-btn-icon-left': !leftIcon.length }" class="uni-navbar-btn-text uni-navbar__content_view"
 					 v-if="leftText.length">

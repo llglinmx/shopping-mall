@@ -1,5 +1,5 @@
 <template>
-	<view class="nav-bar"></view>
+	<view class="nav-bar" :style="{height:Hg+'px'}"></view>
 </template>
 
 <script>
@@ -7,15 +7,15 @@
 		name: "status-bar",
 		data() {
 			return {
-
+				Hg:0,
 			};
 		},
-		mounted() {
-			// uni.getSystemInfo({
-			// 	success: (res) => {
-			// 		console.log(res.statusBarHeight)
-			// 	}
-			// });
+		created() {
+			uni.getSystemInfo({
+				success: (res) => {
+					this.Hg = res.statusBarHeight
+				}
+			});
 		},
 	}
 </script>

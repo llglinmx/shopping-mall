@@ -19,17 +19,79 @@
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/sort/sort",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	    ,{
-            "path" : "pages/sort/sort",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "分类",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+	],
+	"subPackages": [{
+		"root": "pagesIndex",
+		"pages": [{
+			"path": "goodsList/goodsList",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}, {
+		"root": "pagesSort",
+		"pages": [{
+			"path": "goodsDetails/goodsDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}, {
+		"root": "pagesShopping",
+		"pages": [{
+                    "path" : "confirmOrder/confirmOrder",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "确认订单",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	}, {
+		"root": "pagesMine",
+		"pages": [{
+			"path": "receivingAddress/receivingAddress",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "addAddress/addAddress",
+			"style": {
+				"navigationBarTitleText": "添加地址",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "allOrder/allOrder",
+			"style": {
+				"navigationBarTitleText": "全部订单",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -55,7 +117,7 @@
 				"selectedIconPath": "static/images/nav/sort-active.png" // 选中之后的图标
 			},
 			{
-				"pagePath": "pages/shopping/shopping",
+				"pagePath": "pages/shoppingCart/shoppingCart",
 				"text": "购物车",
 				"iconPath": "static/images/nav/shopping.png", // 图标
 				"selectedIconPath": "static/images/nav/shopping-active.png" // 选中之后的图标

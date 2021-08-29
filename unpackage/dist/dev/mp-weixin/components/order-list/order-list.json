@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "loading": "/components/loading/loading",
+    "z-paging": "/uni_modules/z-paging/components/z-paging/z-paging",
+    "count-down": "/components/count-down/count-down"
+  },
+  "component": true
+}

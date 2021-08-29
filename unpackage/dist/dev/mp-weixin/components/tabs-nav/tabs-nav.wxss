@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+._tab-box.data-v-54da2ef8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 26rpx;
+  position: relative;
+  height: 88rpx;
+  line-height: 88rpx;
+  z-index: 10;
+}
+._tab-box .scroll-view-h.data-v-54da2ef8 {
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+._tab-box .scroll-view-h ._scroll-content.data-v-54da2ef8 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+._tab-box .scroll-view-h ._scroll-content ._tab-item-box.data-v-54da2ef8 {
+  height: 100%;
+}
+._tab-box .scroll-view-h ._scroll-content ._tab-item-box._flex.data-v-54da2ef8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+._tab-box .scroll-view-h ._scroll-content ._tab-item-box._flex ._item.data-v-54da2ef8 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 28rpx;
+}
+._tab-box .scroll-view-h ._scroll-content ._tab-item-box._clamp ._item.data-v-54da2ef8 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+._tab-box .scroll-view-h ._scroll-content ._tab-item-box ._item.data-v-54da2ef8 {
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 0 30rpx;
+  position: relative;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #333;
+}
+._tab-box .scroll-view-h ._scroll-content ._tab-item-box ._item._active.data-v-54da2ef8 {
+  color: #e54d42;
+}
+._tab-box .scroll-view-h ._scroll-content ._underline.data-v-54da2ef8 {
+  height: 4px;
+  background-color: #e54d42;
+  border-radius: 6rpx;
+  -webkit-transition: .5s;
+  transition: .5s;
+  position: absolute;
+  bottom: 0;
+}
+

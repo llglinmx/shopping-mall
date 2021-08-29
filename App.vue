@@ -15,4 +15,13 @@
 <style>
 	/*每个页面公共css */
 	@import url('./static/css/public.css');
+	/* 字体图标 */
+	@import url("./static/css/iconfont/iconfont.css");
+
+	page{
+		height: 100%;
+	}
+	.wscnph{
+		width: 750rpx;
+	}
 </style>

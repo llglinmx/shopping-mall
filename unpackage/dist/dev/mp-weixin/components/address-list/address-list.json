@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "address-list-z-paging-refresher": "/components/address-list/address-list-z-paging-refresher",
+    "loading": "/components/loading/loading",
+    "z-paging": "/uni_modules/z-paging/components/z-paging/z-paging",
+    "custom-refresher": "/components/custom-refresher/custom-refresher"
+  },
+  "component": true
+}

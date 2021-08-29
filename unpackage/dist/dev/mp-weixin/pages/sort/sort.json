@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "分类",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "status-bar": "/components/status-bar/status-bar",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "menu-list": "/components/menu-list/menu-list",
+    "loading": "/components/loading/loading",
+    "no-data": "/components/no-data/no-data",
+    "data-list": "/components/data-list/data-list",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "select-product": "/components/select-product/select-product"
+  }
+}

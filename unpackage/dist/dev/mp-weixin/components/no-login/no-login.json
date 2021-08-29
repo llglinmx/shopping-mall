@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "shopping-button": "/components/shopping-button/shopping-button"
+  },
+  "component": true
+}

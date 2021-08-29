@@ -1,0 +1,133 @@
+/* z-paging
+github地址:https://github.com/SmileZXLee/uni-z-paging
+dcloud地址:https://ext.dcloud.net.cn/plugin?id=3935
+反馈QQ群：790460711
+
+公用的静态css资源 */
+.zp-loading-more-line-loading-image.data-v-ef0d5cb6 {
+	margin-right: 8rpx;
+	width: 28rpx;
+	height: 28rpx;
+
+	-webkit-animation: loading-flower-data-v-ef0d5cb6 1s steps(12) infinite;
+	        animation: loading-flower-data-v-ef0d5cb6 1s steps(12) infinite;
+
+	color: #666666;
+}
+.zp-loading-image-ios.data-v-ef0d5cb6{
+	width: 20px;
+	height: 20px;
+}
+.zp-loading-image-android.data-v-ef0d5cb6{
+	width: 32rpx;
+	height: 32rpx;
+}
+@-webkit-keyframes loading-flower-data-v-ef0d5cb6 {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn);
+}
+}
+@keyframes loading-flower-data-v-ef0d5cb6 {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn);
+}
+}
+.zp-load-more-container.data-v-ef0d5cb6 {
+	height: 80rpx;
+	font-size: 27rpx;
+
+	clear: both;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.zp-loading-more-line-loading-custom-image.data-v-ef0d5cb6 {
+	color: #a4a4a4;
+	margin-right: 8rpx;
+	width: 28rpx;
+	height: 28rpx;
+}
+.zp-loading-more-line-loading-custom-image-animated.data-v-ef0d5cb6{
+
+	-webkit-animation: loading-circle-data-v-ef0d5cb6 1s linear infinite;
+	        animation: loading-circle-data-v-ef0d5cb6 1s linear infinite;
+}
+.zp-loading-more-line-loading-view.data-v-ef0d5cb6 {
+	margin-right: 8rpx;
+	width: 22rpx;
+	height: 23rpx;
+	border: 3rpx solid #dddddd;
+	border-radius: 50%;
+
+	-webkit-animation: loading-circle-data-v-ef0d5cb6 1s linear infinite;
+	        animation: loading-circle-data-v-ef0d5cb6 1s linear infinite;
+}
+.zp-loading-more-line-loading-view-black.data-v-ef0d5cb6 {
+	border-color: #c8c8c8;
+	border-top-color: #444444;
+}
+.zp-loading-more-line-loading-view-white.data-v-ef0d5cb6 {
+	border-color: #aaaaaa;
+	border-top-color: #ffffff;
+}
+.zp-loading-more-text.data-v-ef0d5cb6 {
+}
+.zp-loading-more-text-black.data-v-ef0d5cb6 {
+	color: #a4a4a4;
+}
+.zp-loading-more-text-white.data-v-ef0d5cb6 {
+	color: #efefef;
+}
+.zp-loading-more-line.data-v-ef0d5cb6 {
+	height: 1px;
+	width: 100rpx;
+	margin: 0rpx 10rpx;
+}
+.zp-loading-more-line-black.data-v-ef0d5cb6 {
+	background-color: #eeeeee;
+}
+.zp-loading-more-line-white.data-v-ef0d5cb6 {
+	background-color: #efefef;
+}
+@-webkit-keyframes loading-circle-data-v-ef0d5cb6 {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+}
+}
+@keyframes loading-circle-data-v-ef0d5cb6 {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+}
+}
+

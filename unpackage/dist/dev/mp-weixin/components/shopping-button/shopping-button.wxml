@@ -1,0 +1,1 @@
+<view class="button flex-center font-28 data-v-6b89e674" style="{{'background:'+(background)+';'}}" hover-class="active" data-event-opts="{{[['tap',[['clickBtn',['$event']]]]]}}" bindtap="__e"><text class="data-v-6b89e674">{{text}}</text></view>

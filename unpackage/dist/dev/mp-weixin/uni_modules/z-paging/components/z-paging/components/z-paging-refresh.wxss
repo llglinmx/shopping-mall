@@ -1,0 +1,170 @@
+/* z-paging
+github地址:https://github.com/SmileZXLee/uni-z-paging
+dcloud地址:https://ext.dcloud.net.cn/plugin?id=3935
+反馈QQ群：790460711
+
+公用的静态css资源 */
+.zp-loading-more-line-loading-image.data-v-9e33a538 {
+	margin-right: 8rpx;
+	width: 28rpx;
+	height: 28rpx;
+
+	-webkit-animation: loading-flower-data-v-9e33a538 1s steps(12) infinite;
+	        animation: loading-flower-data-v-9e33a538 1s steps(12) infinite;
+
+	color: #666666;
+}
+.zp-loading-image-ios.data-v-9e33a538{
+	width: 20px;
+	height: 20px;
+}
+.zp-loading-image-android.data-v-9e33a538{
+	width: 32rpx;
+	height: 32rpx;
+}
+@-webkit-keyframes loading-flower-data-v-9e33a538 {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn);
+}
+}
+@keyframes loading-flower-data-v-9e33a538 {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn);
+}
+}
+.zp-custom-refresher-container.data-v-9e33a538 {
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.zp-custom-refresher-container-padding.data-v-9e33a538 {
+}
+.zp-custom-refresher-left.data-v-9e33a538 {
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	overflow: hidden;
+}
+.zp-custom-refresher-left-image.data-v-9e33a538 {
+
+	-webkit-transform: rotate(180deg);
+	        transform: rotate(180deg);
+	margin-top: 2rpx;
+}
+.zp-custom-refresher-arrow-top.data-v-9e33a538 {
+
+	animation: refresher-arrow-top-data-v-9e33a538 .2s linear;
+	-webkit-animation: refresher-arrow-top-data-v-9e33a538 .2s linear;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+.zp-custom-refresher-arrow-down.data-v-9e33a538 {
+
+	animation: refresher-arrow-down-data-v-9e33a538 .2s linear;
+	-webkit-animation: refresher-arrow-down-data-v-9e33a538 .2s linear;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+.zp-custom-refresher-arrow-down-no-duration.data-v-9e33a538 {
+
+	animation: refresher-arrow-down-data-v-9e33a538 0s linear;
+	-webkit-animation: refresher-arrow-down-data-v-9e33a538 0s linear;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+.zp-custom-refresher-right.data-v-9e33a538 {
+	font-size: 27rpx;
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.zp-custom-refresher-right-text.data-v-9e33a538 {
+}
+.zp-custom-refresher-right-time-text.data-v-9e33a538 {
+	margin-top: 10rpx;
+	font-size: 24rpx;
+}
+@-webkit-keyframes refresher-arrow-top-data-v-9e33a538 {
+0% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+}
+100% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+}
+@keyframes refresher-arrow-top-data-v-9e33a538 {
+0% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+}
+100% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+}
+@-webkit-keyframes refresher-arrow-down-data-v-9e33a538 {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+100% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+}
+}
+@keyframes refresher-arrow-down-data-v-9e33a538 {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+100% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+}
+}
+
